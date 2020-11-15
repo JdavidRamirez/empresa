@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*ESTILO DEL CUERPO DEL CONTENIDO PARA EL SITIO WEB */
+body{
+    background: #3a3d47;
+    font-family: Verdana;
+   
+}
+/* ESTILO PARA ELENCABEZADO*/
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 20px;
+    padding: 71px;
+    
+}
+.container{
+    width: 1200px;
+    margin: 45px auto;
+    background: white;
+}
+/* ESTILO PARA EL MENU*/
+.menu{
+    float: right;
+    padding: 100px;
+    font-size: 13px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+
+}
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+
+}
+.opciones li a:hover{
+    background: #0d356a;
+}
+/* ESTILO PARA EL Slider*/
+.tamaño li img{
+    width: 100%;
+    
+}
+/* ESTILOS PARA LOS PRODUCTOS Y SERVICIOS*/
+.cuerpo{
+    overflow: hidden;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #ff7600;
+    font-size: 35px;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid
+}
+.subtitulo{
+    background: #1551a1;
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.efecto:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+.boton{
+    color: white;
+    background: #144a91;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.boton:hover{
+    background: #0c2c57;
+}
+.localizacion{
+    padding: 20px 0 15px 0;
+    color: #ff7600;
+    font-size: 35px;
+    text-align: center;
+}
+/*Estilos para el pie de página*/
+.pie{
+    overflow: hidden;
+    background: #062348;
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.abajo{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    padding: 10px;
+}
+.derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.siguenos{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
